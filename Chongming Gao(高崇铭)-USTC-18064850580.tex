@@ -1,0 +1,310 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+% \documentclass{ctexart}
+
+\usepackage{xeCJK}
+% \usepackage{fontspec}
+
+% \usepackage{fontspec}
+% \usepackage{xunicode}
+% \usepackage{xeCJK}
+% \setmainfont{Chancery.ttf}
+% \setsansfont{Chancery.ttf}
+% \setmonofont{Chancery.ttf}
+\setCJKmainfont{SimKai.ttf}
+\setCJKsansfont{SimKai.ttf}
+% \setCJKmonofont{STSong}
+% %\setCJKmathfont{}
+
+% \usepackage[scale=0.85, top=15mm, bottom=13mm]{geometry}
+\usepackage[scale=0.85]{geometry}
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+% \usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Chongming} % Your first name
+\familyname{Gao 高崇铭} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+% \address{2 rue Fran\c cois Verny}{Chengdu, China 29806}
+% \address{UESTC, Chengdu, China}
+% \mobile{(+33) 7 86 33 40 99}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+
+% \usepackage{fontawesome}
+\email{chongming.gao@gmail.com}
+
+\homepage{https://chongminggao.me}%{staff.org.edu/$f$jsmith}% The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+\mobile{(+86) 18064850580}
+\extrainfo{WeChat: 619082231}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+% \quote{Seeking a PhD Placement}
+
+%----------------------------------------------------------------------------------------
+% \moderncvhead{1}
+
+\newfontfamily\chancery[Ligatures=TeX]{Chancery.ttf}
+\renewcommand*\namefont{\chancery\fontsize{30}{48}\selectfont}
+
+% \renewcommand*\namefont{\fontfamily{pzc}\fontsize{40}{48}\selectfont}
+% \renewcommand*\titlefont{\fontfamily{pzc}\fontsize{20}{24}\selectfont}
+% \renewcommand*\addressfont{\fontfamily{pzc}\selectfont}
+% \renewcommand*\sectionfont{\fontfamily{pzc}\fontsize{20}{24}\selectfont}
+% \renewcommand*{\addressfont}{\fontfamily{ppl}\fontsize{14}{18}\selectfont}
+
+% \renewcommand*{\addressstyle}[1]{{\addressfont\textcolor{color2}{#1}}}
+
+% \definecolor{blue}{rgb}{0.11764706,  0.68235294,  0.85882353} % skyblue
+\definecolor{blue}{rgb}{0.22,0.45,0.70} % skyblue
+% \definecolor{blue}{rgb}{0.19607843,  0.45098039,  0.8627451}
+\newcommand{\blue}[1]{{\textcolor{blue}{{} #1}}}
+
+\definecolor{gray}{rgb}{0.2,0.2,0.2} % skyblue
+\newcommand{\gray}[1]{{\textcolor{gray}{{} #1}}}
+
+% \definecolor{red}{rgb}{1,0,0}
+% \newcommand{\red}[1]{{\textcolor{red}{{}#1}}}
+
+\definecolor{red}{HTML}{f74545} % red
+\newcommand{\red}[1]{{\textcolor{red}{{} #1}}}
+
+\begin{document}
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+% \vspace{-7mm}
+\section{Research Interests}
+
+\cventry{}{Data Mining, Information Retrieval and Artificial Intelligence}{}{}{with a focus on leveraging methods such as graph analysis or causal inference, to a wide range of questions including spatio-temporal data analysis, conversational recommender system, and so on.}{}
+
+
+\section{Experiences}
+
+% \cventry{After 2020\\ Ph.D.}{The University of Queensland, Australia}{}{}{}{School of Information Technology and Electrical Engineering (ITEE)\vspace{1mm}\\
+% Supervisor:\href{https://sites.google.com/site/dbhongzhi/}{\blue{Hongzhi Yin}}.\vspace{1mm}\\
+% Research topics: Recommender System and NLP.}
+% \vspace{1mm}
+
+
+\cventry{2020.07--Now\\ Research Intern}{Kuaishou}{}{}{}{Research intern under the supervision of \href{https://scholar.google.com/citations?user=qexdxuEAAAAJ&hl=en}{\blue{Wenqiang Lei}}, Peng Jiang, Biao Li, and \href{http://staff.ustc.edu.cn/~hexn/}{\blue{Xiangnan He}}.\vspace{1mm}\\
+Researches topics: interactive and conversational recommender systems.}
+\vspace{1mm}
+
+\cventry{2019.03--2019.09\\ Research Intern}{Alibaba AI Labs}{}{}{}{Research intern under the supervision of Hao Wang and \href{http://air.tsinghua.edu.cn/EN/team-detail.html?id=35&classid=8}{\blue{Zaiqing Nie}}.\vspace{1mm}\\
+Internship achievement: solved shared account-aware recommendation problem in Tmall Genie.}
+\vspace{1mm}
+
+
+\section{Education}
+% \cventry{2016.09--2019.03}{University of Electronic Science and Technology of China}{}{}{}
+% {M.Eng. in Department of Computer Science and Technology. Supervisor:\href{http://dm.uestc.edu.cn}{\blue{Junming Shao}}.\\}
+
+
+\cventry{2020.09--Now\\ D.Eng.}{University of Science and Technology of China (USTC)}{}{}{}
+{School of Information Science and Technology. \vspace{1mm}\\
+Advisor:\href{http://staff.ustc.edu.cn/~hexn/}{\blue{Xiangnan He}}.\vspace{1mm}\\
+Research topics: conversational recommender systems; causal recommendation.}
+\vspace{1mm}
+
+\cventry{2016.09--2019.06\\ M.Eng.}{University of Electronic Science and Technology of China (UESTC)}{}{}{}
+{Department of Computer Science and Technology. \vspace{1mm}\\
+Supervisor:\href{http://dm.uestc.edu.cn}{\blue{Junming Shao}}.\vspace{1mm}\\
+Thesis: Trajectory Semantic Representation and Location Recommender Systems.}
+\vspace{1mm}
+
+% \cventry{2016.09--2019.03}{University of Electronic Science and Technology of China}{}{}{}
+% {M.Eng. in Department of Computer Science and Technology.\vspace{1mm}\\
+% Supervisor:\href{http://dm.uestc.edu.cn}{\blue{Junming Shao}}.\\}
+
+\cventry{2012.09--2016.06 \\ B.Eng.}{University of Electronic Science and Technology of China (UESTC)}{}{}{}
+{\textit{Yingcai Honors College} (Elite program of UESTC). GPA: 3.81, Ranking: 9/72\\
+Supervisor:\href{http://dm.uestc.edu.cn}{\blue{Junming Shao}}, since the junior year.\vspace{1mm}\\
+Thesis: Synchronization-inspired Co-clustering and Its Application to Gene Expression Data.}  % Arguments not required can be left empty
+\vspace{1mm}
+% \cvitemwithcomment{Arabic}{Native Speaker}{asdf}
+
+%----------------------------------------------------------------------------------------
+%   WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Tutorial }
+\cventry{\red{\fbox{\textbf{Tutorial}}}\\(3 hours)}{\small RecSys 2021 Tutorial on Conversational Recommendation: Formulation, Methods, and Evaluation}{}{}{}{\small Wenqiang Lei, \underline{Chongming Gao},  Maarten de Rijke \vspace{1mm}\\
+\emph{RecSys 2021 Tutorial}.} 
+\vspace{1mm}
+
+\section{Research Publications }
+
+% \cvitem{Accepted}{\small Junming Shao, Chongming Gao, Wei Zeng, Jingkuan Song, Qinli Yang, Synchronization-inspired Co-clustering and Its Application to Gene Expression Data.}
+
+% \cventry{ICDM'20\\Under Review }{*\small A paper about identifying users behind shared account}{}{}{}{\small \underline{Chongming Gao}, Hao Wang, Junliang Yu, Yong Cao, Zaiqing Nie, Hongzhi Yin\vspace{1mm}\\
+% Submitted to \emph{IEEE International Conference on Data Mining} (\textbf{ICDM'20})\vspace{1mm}\\
+% (CORE2020 Rank A*, CCF B), still under review.}
+
+\cventry{AI Open\\\red{\fbox{\textbf{Survey}}}}{\small Advances and Challenges in Conversational Recommender Systems: A Survey}{}{}{}{\small \underline{Chongming Gao}, Wenqiang Lei, Xiangnan He,  Maarten de Rijke, Tat-Seng Chua\vspace{1mm}\\
+\emph{AI Open. Vol. 2. (2021) 100-126}.} 
+\vspace{1mm}
+
+\cventry{IS'20}{\small Semantic Trajectory Representation and Retrieval via Hierarchical Embedding}{}{}{}{\small \underline{Chongming Gao}, Chen Huang, Zhong Zhang, Qinli Yang, Junming Shao\vspace{1mm}\\
+\emph{Information Sciences} (\textbf{IS'20})\vspace{1mm}\\
+(SJR Q1, H index: 154, CiteScore: 6.90, Impact Factor: 5.524).}
+\vspace{1mm}
+
+\cventry{EMNLP'20}{\small Revisiting Representation Degeneration Problem in Language Modeling}{}{}{}{\small Zhong Zhang, \underline{Chongming Gao}, Cong Xu, Rui Miao, Qinli Yang, Junming Shao\vspace{1mm}\\
+\emph{Findings of EMNLP, 2020.}\vspace{1mm}\\
+(CORE2020 Rank: A, CCF B).}
+\vspace{1mm}
+
+\cventry{DASFAA'19}{\small Towards Robust Arbitrarily Oriented Subspace Clustering \red{
+\fbox{Best Paper Award}}}{}{}{}{\small Zhong Zhang, \underline{Chongming Gao}, Chongzhi Liu, Qinli Yang, Junming Shao\vspace{1mm}\\
+ \emph{International Conference on Database Systems for Advanced Applications} (\textbf{DASFAA'19}), \vspace{1mm}\\
+(CORE2020 Rank B, CCF B)}
+\vspace{1mm}
+
+
+\cventry{DASFAA'19}{\small \mbox{BLOMA: Explain Collaborative Filtering via Boosted Local Rank-One Matrix Approximation}}{}{}{}{\small \underline{Chongming Gao}, Shuai Yuan, Zhong Zhang, Hongzhi Yin, Junming Shao\vspace{1mm}\\
+ \emph{International Conference on Database Systems for Advanced Applications} (\textbf{DASFAA'19}), \vspace{1mm}\\
+(CORE2020 Rank B, CCF B)}
+\vspace{1mm}
+
+\cventry{KBS'19}{\small Semantic Trajectory Compression via Multi-resolution Synchronization-based Clustering}{}{}{}{\small \underline{Chongming Gao}, Yi Zhao, Ruizhi Wu, Qinli Yang, Junming Shao\vspace{1mm}\\
+\emph{Knowledge-Based Systems} (\textbf{KBS'19}), \vspace{1mm}\\
+(SJR Q1, H Index: 94, CiteScore: 7.01, Impact Factor: 5.101)}
+\vspace{1mm}
+
+\cventry{ICDM'19}{\small Online Budgeted Least Squares with Unlabeled Data}{}{}{}{\small Chen Huang, Peiyan Li, \underline{Chongming Gao}, Qinli Yang, Junming Shao\vspace{1mm}\\
+\emph{IEEE International Conference on Data Mining} (\textbf{ICDM'19}), \vspace{1mm}\\
+(CORE2020 Rank: A*, CCF B).}
+\vspace{1mm}
+
+\cventry{ICDM'19}{\small Generating Reliable Friends via Adversarial Training to Improve Social Recommendation}{}{}{}{\small Junliang Yu, Min Gao, Hongzhi Yin, Jundong Li, \underline{Chongming Gao}, Qinyong Wang\vspace{1mm}\\
+\emph{IEEE International Conference on Data Mining} (\textbf{ICDM'19}), \vspace{1mm}\\
+(CORE2020 Rank: A*, CCF B).}
+\vspace{1mm}
+
+\cventry{DASFAA'19}{\small SemiSync: Semi-supervised Clustering by Synchronization}{}{}{}{\small Zhong Zhang, DiDi Kang, \underline{Chongming Gao}, Junming Shao\vspace{1mm}\\
+ \emph{International Conference on Database Systems for Advanced Applications} (\textbf{DASFAA'19}), \vspace{1mm}\\
+(CORE2020 Rank B, CCF B)}
+\vspace{1mm}
+
+\cventry{ICDM'17}{\small Synchronization-inspired Co-clustering and Its Application to Gene Expression Data}{}{}{}{\small Junming Shao, \underline{Chongming Gao}, Wei Zeng, Jingkuan Song, Qinli Yang\vspace{1mm}\\
+\emph{IEEE International Conference on Data Mining} (\textbf{ICDM'17}), \vspace{1mm}\\
+(CORE2020 Rank: A*, CCF B).}
+\vspace{1mm}
+
+
+
+
+
+% \vspace{1mm}
+
+
+
+\section{Awards}
+
+\cvitem{2019}{\small One of our papers won the \textbf{Best Paper Award} of DASFAA'19 (CORE2020 Rank B, CCF B).} 
+\cvitem{2019}{\small \emph{Outstanding Master's Thesis Award} of UESTC. (86/3744)} 
+\cvitem{2019}{\small \emph{Outstanding Graduate Student Award} of UESTC.} 
+\cvitem{2016}{\small \textbf{Rank No.1} in Undergraduate Thesis Defense of UESTC. \emph{Outstanding Undergraduation Thesis}.}
+\cvitem{2016}{\small \emph{Outstanding Undergraduate Student Award} of UESTC. Top 10 in Yingcai Honors College.}
+\cvitem{2014}{\small \emph{Meritorious Winner} for CSIAM's China Undergraduate Mathematical Contest in Modeling.}
+\cvitem{2013}{\small \emph{First Prize} in Sichuan Contest District in China Undergraduate Mathematical Contest in Modeling.}
+\cvitem{2012}{\small \emph{Tang Lixin Scholarship} of UESTC. Top 60 out of over 25,000 undergraduate and graduate students.}
+\cvitem{2012}{\small \textbf{Rank No.1} in entering UESTC from Yunnan Province (Score: 614).}
+%----------------------------------------------------------------------------------------
+%   COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+% \cvitem{Basic}{VHDL, UML}
+\cvitem{Programming}{Python, \textsc{Matlab}, \textsc{Java}, C/C++, \LaTeX, HTML5+CSS3+Javascript}
+\cvitem{Prototyping}{Adobe Illustrator, Adobe Photoshop}
+
+
+%----------------------------------------------------------------------------------------
+%   LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Languages}
+% \begin{small}
+% \cvitemwithcomment{Arabic}{Native Speaker}{}
+% \cvitemwithcomment{French}{Near Native}{excellent command}
+% \cvitemwithcomment{English}{Near Native}{excellent command}
+% \cvitemwithcomment{Chinese}{Intermediate}{good working knowledge}
+% \cvitemwithcomment{Japanese}{Intermediate}{good working knowledge}
+% \end{small}
+
+
+%----------------------------------------------------------------------------------------
+%   INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvitem{}{Reading, Badminton, Jogging, Diving, Climbing, Photography.}
+%\cvlistdoubleitem{Robotics}{}
+
+
+%----------------------------------------------------------------------------------------
+%   COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+\end{document}
